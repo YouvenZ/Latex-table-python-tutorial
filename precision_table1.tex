@@ -1,0 +1,25 @@
+
+\documentclass{article}
+\usepackage{booktabs}  % For professional-looking tables
+\usepackage{longtable} % For long tables that span multiple pages
+\usepackage{graphicx}  % Allows table resizing
+\usepackage{adjustbox} % To resize the table if needed
+\begin{document}
+\begin{table}[h!]
+\centering
+\caption{Scientific Notation Example}
+\label{tab:precision_table1}
+\begin{tabular}{lccc}
+\toprule
+Experiment & Temperature (°C) & Pressure (Pa) & Success Rate ($\%$) \\
+\midrule
+A & 23.5000 & 101325 & 95.2000 \\
+B & 19.8000 & 99000 & 89.5000 \\
+C & 27.3000 & 102000 & 92.1000 \\
+D & 21.1000 & 100500 & 88.7000 \\
+E & 25.6000 & 101800 & 90.3000 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\end{document}

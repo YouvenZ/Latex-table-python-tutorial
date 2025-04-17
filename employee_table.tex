@@ -1,0 +1,24 @@
+
+\documentclass{article}
+\usepackage{booktabs}  % For professional-looking tables
+\usepackage{longtable} % For long tables that span multiple pages
+\usepackage{graphicx}  % Allows table resizing
+\usepackage{adjustbox} % To resize the table if needed
+\begin{document}
+\begin{table}[h!]
+\centering
+\caption{Employee Details}
+\label{tab:employee}
+\begin{tabular}{lccc}
+\toprule
+\multicolumn{2}{r}{Employee Info} & \multicolumn{2}{r}{Work Details} \\
+ID & Name & Department & Joining Date \\
+\midrule
+101 & Alice & HR & 2020-01-10 \\
+102 & Bob & IT & 2019-07-23 \\
+103 & Charlie & Finance & 2021-06-15 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\end{document}
